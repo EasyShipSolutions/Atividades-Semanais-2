@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border-top{
+    position: absolute;
+    clip-path: path("M0 -38.6976C1010.57 -38.6976 1689.74 63.7675 1903 115V-274H0V-38.6976Z");
+    background-color: #7C4032;
+    height: 100px;
+    width: 100vw;
+
+}
+.border-bottom-home{
+
+    position: absolute;
+    clip-path: path("M1903 153.698C892.428 153.698 213.262 51.2325 0 0V389H1903V153.698Z");
+
+    margin-top: 124px;
+    margin-left: -250px;
+    background-color: #7C4032;
+    height: 150px;
+    width: 100vw;
+
+}
+.container-home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-image: url("Fundo.png");
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FEF4DE;
+}
+.left-itens h1 {
+    font-weight: 900;
+    color: #663128;
+    font-size: 105px;
+    margin-bottom: -5px;
+}
+.left-itens h2{
+    font-weight: 50;
+    color: #663128;
+    font-size: 40px;
+    letter-spacing: 25px;
+    
+}
+.left-itens p{
+    margin: 10px;
+    font-weight: 600;
+    color: #663128;
+}
+.left-itens button{
+    background-color: #f3ce5e;
+    width: 200px;
+    height: 60px;
+    font-size:18px;
+    border-radius: 150px;
+    border: none;
+    margin-right: 50px;
+    font-weight: 600 ;
+    color: #663128;
+    
+
+
+}
+.right-itens img{
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 0px;
+
+}
+.left-itens a{
+    text-decoration: none;
+    color: #663128;
+    font-weight: 0px;
+}
+.btn-home{
+    margin-top: 25px;
+
+}
