@@ -7,8 +7,8 @@
 #servicos{
     background-color:  #7C4032;
    font-family: 'Poppins', sans-serif;
-   width: 100vw;
-   height: 100vh;
+   width: 99vw;
+   height: 900px;
 }
 
 .titulo h1{
@@ -34,8 +34,8 @@
     font-style: normal;
     width: 210px;
     height: 66px;
-    margin-left: 600px;
-    margin-bottom:100px ;
+    margin-left: 840px;
+    margin-top:90px ;
     /* left: 720px;
     top: 1410px; */
     color: #663128;

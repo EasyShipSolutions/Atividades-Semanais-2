@@ -7,8 +7,10 @@
 
     clip-path: path("M0 -38.6976C1010.57 -38.6976 1689.74 63.7675 1903 115V-274H0V-38.6976Z");
     background-color: #7C4032;
-    /* height: 100vh;
-    width: 100vh; */
+    height: 400px;
+    width: 99vw; 
+    margin-bottom: -400px;
+    
 
 }
 .border-bottom-home{
@@ -25,16 +27,15 @@
     justify-content: space-evenly;
     align-items:center;
     background-image: url("Fundo.png");
-    height: 100vh;
-    width: 100vw;
     font-family: 'Poppins', sans-serif;
     background-color: #FEF4DE;
+    margin-bottom: -60px;
 }
 .left-itens h1 {
     font-weight: 900;
     color: #663128;
     font-size: 105px;
-    margin-bottom: -5px;
+    margin-bottom:0;
 }
 .left-itens h2{
     font-weight: 50;
@@ -63,9 +64,9 @@
 
 }
 .right-itens img{
-    height: 500px;
-    margin-left: 150px;
-    margin-right: 0px;
+    height: 450px;
+    margin-left: -600px;
+    margin-right: -300px;
 
 }
 .left-itens a{
@@ -76,4 +77,8 @@
 .btn-home{
     margin-top: 25px;
 
+}
+.left-itens{
+    margin-left: 200px;
+    margin-top: 100px;
 }
